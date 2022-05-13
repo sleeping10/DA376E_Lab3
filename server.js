@@ -42,7 +42,7 @@ app.post('/getWordLengthFrequency', function (req, res) {
     }
   
     console.log("sending response");
-    res.send(resultStr);
+    res.send(result);
     res.end();
  
 })
